@@ -7,8 +7,9 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Mail, MapPin, Phone } from "lucide-react"
+import {DownloadIcon, Mail, MapPin, Phone} from "lucide-react"
 import {sendMessage} from "@/app/action";
+import Link from "next/link";
 
 export function Contact() {
   const [formData, setFormData] = useState({
@@ -68,6 +69,11 @@ export function Contact() {
                 <div className="flex items-center">
                   <MapPin className="h-5 w-5 mr-3 text-sky-500" />
                   <span>Chiang Mai, Thailand</span>
+                </div>
+                <div className="flex items-center">
+                  <Link href={"/HtunAungKyawCV.pdf"} target={"_blank"} download={"HtunAungKyawCV.pdf"}>
+                      <DownloadIcon className="h-5 w-5 mr-3 text-sky-500 inline" />Download CV
+                  </Link>
                 </div>
               </div>
             </div>
