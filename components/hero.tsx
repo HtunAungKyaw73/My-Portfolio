@@ -9,7 +9,7 @@ export function Hero() {
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-6">
             Hi, I'm{" "}
-            <span className="bg-gradient-to-r from-sky-400 to-sky-200 bg-clip-text text-transparent">Htun Aung Kyaw</span>
+            <span className="bg-gradient-to-r from-sky-500 to-sky-300 bg-clip-text text-transparent">Htun Aung Kyaw</span>
           </h1>
           <p className="text-xl sm:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
               A passionate full-stack developer who crafts digital experiences using modern technologies with a minimalist approach.

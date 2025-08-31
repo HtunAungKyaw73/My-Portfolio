@@ -10,7 +10,7 @@ export function Projects() {
       {
           title: "ExpressServer-JWTAuthentication",
           description: "Backend API using Express MVC Architecture and JWT Authentication. I wrote this backend server including access and refresh token. There are four API endpoints: todos, movies, reviews, users. The project is divided into routes, controllers, services, models for design architecture.",
-          image: "/express-server.png",
+          image: "/express-server.jpg",
           technologies: ["Javascript", "Express.js", "Mongo","Mongoose.js", "JWT",],
           githubUrl: "https://github.com/HtunAungKyaw73/ExpressServer-JWTAuthentication",
           liveUrl: "https://github.com/HtunAungKyaw73/ExpressServer-JWTAuthentication",
