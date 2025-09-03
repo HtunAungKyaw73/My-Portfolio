@@ -3,13 +3,20 @@
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Menu, X } from "lucide-react"
+import {Menu, MoonIcon, SunIcon, X} from "lucide-react"
+import {useTheme} from "next-themes";
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
+  const {theme, setTheme} = useTheme();
+
+  const toggleTheme = () => {
+      setTheme(theme === "light" ? "dark" : "light")
+  };
 
   useEffect(() => {
+    setTheme("light")
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50)
     }
@@ -48,11 +55,18 @@ export function Header() {
               </Link>
             ))}
           </nav>
+          <div aria-label="button-group">
+                {/*Theme Toggle*/}
+                <Button aria-label={"Toggle theme"} className={"mr-2"} variant={"secondary"} onClick={toggleTheme}>
+                    {/*to prevent rehydration error and no theme in initial render */}
+                    {theme? theme === "light"? <SunIcon/> : <MoonIcon/> : <SunIcon/>}
+                </Button>
 
-          {/* Mobile Menu Button */}
-          <Button variant="ghost" size="icon" className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
-            {isMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
-          </Button>
+                {/* Mobile Menu Button */}
+                <Button variant="ghost" size="icon" className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+                    {isMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+                </Button>
+          </div>
         </div>
 
         {/* Mobile Navigation */}

@@ -108,7 +108,7 @@ export function Projects() {
                   </div>
                 </CardContent>
                 <CardFooter className="flex gap-2">
-                  <Button size="sm" variant="outline" asChild>
+                  <Button size="sm" variant="outline" className={"dark:hover:bg-secondary"} asChild>
                     <Link href={project.githubUrl} target="_blank">
                       <Github className="h-4 w-4 mr-2" />
                       Code
@@ -138,7 +138,7 @@ export function Projects() {
                         <CardContent>
                             <div className="flex flex-wrap gap-2">
                                 {project.technologies.map((tech, techIndex) => (
-                                    <Badge key={techIndex} variant="secondary" className="bg-sky-200">
+                                    <Badge key={techIndex} variant="secondary" className="bg-sky-200 dark:bg-sky-400">
                                         {tech}
                                     </Badge>
                                 ))}
@@ -146,7 +146,7 @@ export function Projects() {
                         </CardContent>
                         <CardFooter className="flex gap-2">
                             <Button size="sm" variant="outline" asChild>
-                                <Link href={project.githubUrl} target="_blank">
+                                <Link href={project.githubUrl} className={"dark:hover:bg-secondary"} target="_blank">
                                     <Github className="h-4 w-4 mr-2" />
                                     Code
                                 </Link>

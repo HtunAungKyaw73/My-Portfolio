@@ -54,7 +54,7 @@ export function About() {
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {highlights.map((highlight, index) => (
-              <Card key={index} className="text-center hover:bg-gray-100">
+              <Card key={index} className="text-center hover:bg-gray-100 dark:hover:bg-secondary">
                 <CardContent className="p-6">
                   <div className="flex justify-center mb-4 text-primary">{highlight.icon}</div>
                   <h3 className="font-semibold mb-2 text-sky-500">{highlight.title}</h3>
