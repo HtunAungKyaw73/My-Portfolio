@@ -15,7 +15,6 @@ export function Projects() {
           githubUrl: "https://github.com/HtunAungKyaw73/ExpressServer-JWTAuthentication",
           liveUrl: "https://github.com/HtunAungKyaw73/ExpressServer-JWTAuthentication",
       },
-
     {
       title: "Restaurant Website",
       description:
