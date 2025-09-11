@@ -34,13 +34,13 @@ export function Projects() {
           liveUrl: "https://movie-dashboard-react-redux.vercel.app/",
       },
     {
-      title: "Blogr Website",
+      title: "Interactive Survey Website",
       description:
-        "A responsive website written from scratch using HTML5, CSS3. This project is from frontend mentor challenges. This is written in mobile first approach with two breakpoints: 768px and 1024px. Mastering CSS and Playing with JS for Menu Bar.",
+        "This project is a sample work for my organisation. Tech stack: React, Recharts, Next, TailwindCSS.",
       image: "/blogr-website.png",
-      technologies: ["HTML5", "CSS3", "Javascript", "Responsive", "Flex"],
-      githubUrl: "https://github.com/HtunAungKyaw73/blogr-website",
-      liveUrl: "https://blogr-website-theta.vercel.app/",
+      technologies: ["HTML5", "CSS3", "React", "RechartsJS", "NextJS", "TailwindCSS"],
+      githubUrl: "https://github.com/HtunAungKyaw73/Interactive-Survey-Website",
+      liveUrl: "https://interactive-survey-website.vercel.app/",
     },
 
   ]
