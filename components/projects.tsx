@@ -37,7 +37,7 @@ export function Projects() {
       title: "Interactive Survey Website",
       description:
         "This project is a sample work for my organisation. Tech stack: React, Recharts, Next, TailwindCSS.",
-      image: "/blogr-website.png",
+      image: "/survey.png",
       technologies: ["HTML5", "CSS3", "React", "RechartsJS", "NextJS", "TailwindCSS"],
       githubUrl: "https://github.com/HtunAungKyaw73/Interactive-Survey-Website",
       liveUrl: "https://interactive-survey-website.vercel.app/",
