@@ -16,13 +16,13 @@ export function Projects() {
           liveUrl: "https://github.com/HtunAungKyaw73/ExpressServer-JWTAuthentication",
       },
     {
-      title: "Restaurant Website",
+      title: "Interactive-World-Map",
       description:
-        "I created this website using HTML5 and CSS3 to polish my front-end skills. I learned many fundamental concepts of website building. This was written in desktop first approach using float property for CSS to mimic old development style.",
-      image: "/restaurant-website.png",
+        "Using restcountries API along with Vanilla JS, I created this interactive world map showing every country info on click as my svg learning journey.",
+      image: "/world-map.png",
       technologies: ["HTML5", "CSS3", "Javascript", "Responsive"],
-      githubUrl: "https://github.com/HtunAungKyaw73/Food-Order-Website",
-      liveUrl: "https://food-order-website-mauve.vercel.app/",
+      githubUrl: "https://github.com/HtunAungKyaw73/Interactive-World-Map",
+      liveUrl: "https://interactive-world-map-alpha.vercel.app/",
     },
       {
           title: "Movie Dashboard with Redux",
@@ -45,6 +45,20 @@ export function Projects() {
 
   ]
     const all_works = [
+        {
+            title: "Blogr Website",
+            description:
+                "A responsive website written from scratch using HTML5, CSS3. This project is from frontend mentor challenges. This is written in mobile first approach with two breakpoints: 768px and 1024px. Mastering CSS and Playing with JS for Menu Bar.",
+            technologies: ["HTML5", "CSS3", "Javascript", "Responsive", "Flex"],
+            githubUrl: "https://github.com/HtunAungKyaw73/blogr-website",
+        },
+        {
+            title: "Restaurant Website",
+            description:
+                "I created this website using HTML5 and CSS3 to polish my front-end skills. I learned many fundamental concepts of website building. This was written in desktop first approach using float property for CSS to mimic old development style.",
+            technologies: ["HTML5", "CSS3", "Javascript", "Responsive"],
+            githubUrl: "https://github.com/HtunAungKyaw73/Food-Order-Website",
+        },
         {
             title: "Student-and-Teacher-Record-System",
             description: "This was my very first OOP project written in C++ on April 2017 right after my second year.",
@@ -74,6 +88,12 @@ export function Projects() {
             description: "CSS Layouts using flex and grid; This is my learning practices.",
             technologies: ["HTML5", "CSS3"],
             githubUrl: "https://github.com/HtunAungKyaw73/css_layout_learning"
+        },
+        {
+            title: "Bookshelf with PHP",
+            description: "Using PHP 5.5, I wrote bookshelf project. Just simply with mysql and php server side rendering.",
+            technologies: ["PHP", "HTML5", "CSS3", "MySQL"],
+            githubUrl: "https://github.com/HtunAungKyaw73/Bookshelf-PHP"
         },
         {
             title: "Bookshelf with PHP",
