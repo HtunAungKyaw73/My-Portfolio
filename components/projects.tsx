@@ -8,22 +8,30 @@ import Image from "next/image"
 export function Projects() {
   const projects = [
       {
-          title: "ExpressServer-JWTAuthentication",
+          title: "ExpressServer for Utility Management System - Prisma",
+          description: "Backend API using Express MVC Architecture and Prisma ORM. This is for utility management system which is our voluntary project. I am a backend team leader for this project.",
+          image: "/express-prisma.png",
+          technologies: ["Javascript", "Express.js", "Node.js", "JWT", "PostgreSQL", "Prisma ORM", "Neon DB"],
+          githubUrl: "https://github.com/one-project-one-month/Node-Utility-Management-System",
+          liveUrl: "https://node-utility-management-system-fye1.onrender.com/docs",
+      },
+      {
+          title: "ExpressServer for Movie Dashboard - MongoDB",
           description: "Backend API using Express MVC Architecture and JWT Authentication. I wrote this backend server including access and refresh token. There are four API endpoints: todos, movies, reviews, users. The project is divided into routes, controllers, services, models for design architecture.",
           image: "/express-server.jpg",
-          technologies: ["Javascript", "Express.js", "Mongo","Mongoose.js", "JWT",],
+          technologies: ["Javascript", "Express.js", "Node.js", "Mongo", "Mongoose.js", "JWT",],
           githubUrl: "https://github.com/HtunAungKyaw73/ExpressServer-JWTAuthentication",
           liveUrl: "https://github.com/HtunAungKyaw73/ExpressServer-JWTAuthentication",
       },
-    {
-      title: "Interactive-World-Map",
-      description:
-        "Using restcountries API along with Vanilla JS, I created this interactive world map showing every country info on click as my svg learning journey.",
-      image: "/world-map.png",
-      technologies: ["HTML5", "CSS3", "Javascript", "Responsive"],
-      githubUrl: "https://github.com/HtunAungKyaw73/Interactive-World-Map",
-      liveUrl: "https://interactive-world-map-alpha.vercel.app/",
-    },
+      {
+          title: "Interactive-World-Map",
+          description:
+            "Using restcountries API along with Vanilla JS, I created this interactive world map showing every country info on click as my svg learning journey.",
+          image: "/world-map.png",
+          technologies: ["HTML5", "CSS3", "Javascript", "Responsive"],
+          githubUrl: "https://github.com/HtunAungKyaw73/Interactive-World-Map",
+          liveUrl: "https://interactive-world-map-alpha.vercel.app/",
+      },
       {
           title: "Movie Dashboard with Redux",
           description:
@@ -33,16 +41,15 @@ export function Projects() {
           githubUrl: "https://github.com/HtunAungKyaw73/MovieDashboard-ReactRedux",
           liveUrl: "https://movie-dashboard-react-redux.vercel.app/",
       },
-    {
-      title: "Interactive Survey Website",
-      description:
-        "This project is a sample work for my organisation. Tech stack: React, Recharts, Next, TailwindCSS.",
-      image: "/survey.png",
-      technologies: ["HTML5", "CSS3", "React", "RechartsJS", "NextJS", "TailwindCSS"],
-      githubUrl: "https://github.com/HtunAungKyaw73/Interactive-Survey-Website",
-      liveUrl: "https://interactive-survey-website.vercel.app/",
-    },
-
+      {
+          title: "Interactive Survey Website",
+          description:
+            "This project is a sample work for my organisation. Tech stack: React, Recharts, Next, TailwindCSS.",
+          image: "/survey.png",
+          technologies: ["HTML5", "CSS3", "React", "RechartsJS", "NextJS", "TailwindCSS"],
+          githubUrl: "https://github.com/HtunAungKyaw73/Interactive-Survey-Website",
+          liveUrl: "https://interactive-survey-website.vercel.app/",
+      },
   ]
     const all_works = [
         {
@@ -95,13 +102,6 @@ export function Projects() {
             technologies: ["PHP", "HTML5", "CSS3", "MySQL"],
             githubUrl: "https://github.com/HtunAungKyaw73/Bookshelf-PHP"
         },
-        {
-            title: "Bookshelf with PHP",
-            description: "Using PHP 5.5, I wrote bookshelf project. Just simply with mysql and php server side rendering.",
-            technologies: ["PHP", "HTML5", "CSS3", "MySQL"],
-            githubUrl: "https://github.com/HtunAungKyaw73/Bookshelf-PHP"
-        },
-
     ]
   return (
     <section id="projects" className="py-20 bg-muted/20">
