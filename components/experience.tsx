@@ -10,23 +10,15 @@ export function Experience() {
       period: "2020 - Present",
       description:
         "It involves Developing course materials, conducting lessons, and mentoring students to enhance their coding skills. Conducted interactive classes that fostered student engagement and participation. Mentored students individually to address their unique learning needs",
-      technologies: ["C++", "Python", "Java", "Digital Literacy", "Web Development", "HTML5", "CSS3", "JavaScript"],
+      technologies: ["C++", "Python", "Digital Literacy", "Web Development", "HTML5", "CSS3", "JavaScript"],
     },
-    // {
-    //   title: "Frontend Developer",
-    //   company: "Digital Solutions Ltd.",
-    //   period: "2020 - 2022",
-    //   description:
-    //     "Developed responsive web applications and improved user experience across multiple projects. Collaborated with design teams to implement pixel-perfect interfaces.",
-    //   technologies: ["Vue.js", "JavaScript", "SASS", "Webpack", "REST APIs"],
-    // },
     {
       title: "Program Associate",
       company: "Institute for Strategy and Policy-Myanmar",
       period: "2023 - Present",
       description:
-        "In the role of Program Associate at ISP-Myanmar, responsibilities include research work, web scraping with Python, data collection, data cleaning, data analysis, data visualisation, and writing research findings for publication.",
-      technologies: ["Excel", "Python", "Digital Tools", "Glide","Data Collection and Cleaning","Data Visualisation"],
+        "In the role of Program Associate at ISP-Myanmar, I serve as a in-house developer for interactive analysis dashboards and internal utility microsites. Plus, web scraping with Python, data collection, data cleaning, data analysis, and data visualisation",
+      technologies: ["Web Development", "React", "NextJS", "RTK", "Python", "Digital Tools", "Excel", "Glide","Data Collection and Cleaning","Data Visualisation"],
     },
   ]
 

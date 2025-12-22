@@ -8,6 +8,15 @@ import Image from "next/image"
 export function Projects() {
   const projects = [
       {
+          title: "Library Hub",
+          description:
+              "Smart and easy Library Management System using Next.js, RTK Query, and Baserow Database for Backend Server. Easy borrow and return mechanism for users combined with smart tracking and management for admins.",
+          image: "/libray-hub.png",
+          technologies: ["Next.js", "React", "RTK", "RTKQuery", "AG Grid", "TypeScript", "Shadcn", "Lucide", "Baserow DB" ],
+          githubUrl: "https://github.com/HtunAungKyaw73/Library-Hub",
+          liveUrl: "",
+      },
+      {
           title: "ExpressServer for Utility Management System - Prisma",
           description: "Backend API using Express MVC Architecture and Prisma ORM. This is for utility management system which is our voluntary project. I am a backend team leader for this project.",
           image: "/express-prisma.png",
@@ -24,15 +33,6 @@ export function Projects() {
           liveUrl: "https://github.com/HtunAungKyaw73/ExpressServer-JWTAuthentication",
       },
       {
-          title: "Interactive-World-Map",
-          description:
-            "Using restcountries API along with Vanilla JS, I created this interactive world map showing every country info on click as my svg learning journey.",
-          image: "/world-map.png",
-          technologies: ["HTML5", "CSS3", "Javascript", "Responsive"],
-          githubUrl: "https://github.com/HtunAungKyaw73/Interactive-World-Map",
-          liveUrl: "https://interactive-world-map-alpha.vercel.app/",
-      },
-      {
           title: "Movie Dashboard with Redux",
           description:
               "Using NextJs Framework, I created a movie dashboard app with simple and easy to perform CRUD operations. With the help of RTK, app state management become more powerful. React bootstrap and Material UI was beautifully used for quick UI, but for main layout, I wrote CSS from scratch.",
@@ -40,15 +40,6 @@ export function Projects() {
           technologies: ["Next.js", "TypeScript", "Redux/RTK", "Formik", "Yup", "Material UI", "Vercel"],
           githubUrl: "https://github.com/HtunAungKyaw73/MovieDashboard-ReactRedux",
           liveUrl: "https://movie-dashboard-react-redux.vercel.app/",
-      },
-      {
-          title: "Interactive Survey Website",
-          description:
-            "This project is a sample work for my organisation. Tech stack: React, Recharts, Next, TailwindCSS.",
-          image: "/survey.png",
-          technologies: ["HTML5", "CSS3", "React", "RechartsJS", "NextJS", "TailwindCSS"],
-          githubUrl: "https://github.com/HtunAungKyaw73/Interactive-Survey-Website",
-          liveUrl: "https://interactive-survey-website.vercel.app/",
       },
   ]
     const all_works = [
@@ -77,6 +68,13 @@ export function Projects() {
             description: "RTK Query Project with NextJS using Express for Backend.",
             technologies: ["Next.js", "TypeScript", "Redux/RTK Query", "Formik", "Yup", "Material UI", "Vercel"],
             githubUrl: "https://github.com/HtunAungKyaw73/MovieDashboard-RTKQuery"
+        },
+        {
+            title: "Interactive-World-Map",
+            description:
+                "Using restcountries API along with Vanilla JS, I created this interactive world map showing every country info on click as my svg learning journey.",
+            technologies: ["HTML5", "CSS3", "Javascript", "Responsive"],
+            githubUrl: "https://github.com/HtunAungKyaw73/Interactive-World-Map",
         },
         {
             title: "TeleScrape",
