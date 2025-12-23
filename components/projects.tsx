@@ -14,7 +14,7 @@ export function Projects() {
           image: "/libray-hub.png",
           technologies: ["Next.js", "React", "RTK", "RTKQuery", "AG Grid", "TypeScript", "Shadcn", "Lucide", "Baserow DB" ],
           githubUrl: "https://github.com/HtunAungKyaw73/Library-Hub",
-          liveUrl: "",
+          liveUrl: "https://library-hub-hak.vercel.app/",
       },
       {
           title: "ExpressServer for Utility Management System - Prisma",
