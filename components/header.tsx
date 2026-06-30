@@ -39,7 +39,11 @@ export function Header() {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <Link href="#hero" className="font-mono tracking-tight hover:opacity-75 transition-opacity">
+          <Link
+            href="#hero"
+            className="hover:opacity-75 transition-opacity tracking-tight"
+            style={{ fontFamily: 'var(--font-fira-code)', fontFeatureSettings: '"liga" 1, "calt" 1' }}
+          >
             <span className="text-muted-foreground text-lg">&lt;</span>
             <span className="text-sky-500 text-xl font-bold">hak</span>
             <span className="text-muted-foreground text-lg">/&gt;</span>
