@@ -8,6 +8,15 @@ import Image from "next/image"
 export function Projects() {
   const projects = [
       {
+          title: "Learn Programming Easily",
+          description:
+              "A single-author CMS for writing and publishing programming articles. Built with Next.js 16 App Router, it stores MDX article bodies and metadata in PostgreSQL via Prisma, so editing in the auth-protected admin panel goes live instantly through on-demand ISR — no rebuild. Features Shiki code highlighting, instant client-side search, RSS feed, SEO with JSON-LD, and Auth.js credentials login with brute-force rate limiting.",
+          image: "/learn-programming-easily.png",
+          technologies: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "MDX", "Auth.js", "Shiki", "Fuse.js", "Tailwind v4", "Vercel"],
+          githubUrl: "https://github.com/HtunAungKyaw73/Learn-Programming-Easily",
+          liveUrl: "https://articles.htunaungkyaw.online/",
+      },
+      {
           title: "Library Hub",
           description:
               "Smart and easy Library Management System using Next.js, RTK Query, and Baserow Database for Backend Server. Easy borrow and return mechanism for users combined with smart tracking and management for admins.",
@@ -32,17 +41,15 @@ export function Projects() {
           githubUrl: "https://github.com/HtunAungKyaw73/ExpressServer-JWTAuthentication",
           liveUrl: "https://github.com/HtunAungKyaw73/ExpressServer-JWTAuthentication",
       },
-      {
-          title: "Movie Dashboard with Redux",
-          description:
-              "Using NextJs Framework, I created a movie dashboard app with simple and easy to perform CRUD operations. With the help of RTK, app state management become more powerful. React bootstrap and Material UI was beautifully used for quick UI, but for main layout, I wrote CSS from scratch.",
-          image: "/redux-movie-dashboard.png",
-          technologies: ["Next.js", "TypeScript", "Redux/RTK", "Formik", "Yup", "Material UI", "Vercel"],
-          githubUrl: "https://github.com/HtunAungKyaw73/MovieDashboard-ReactRedux",
-          liveUrl: "https://movie-dashboard-react-redux.vercel.app/",
-      },
   ]
     const all_works = [
+        {
+            title: "Movie Dashboard with Redux",
+            description:
+                "Using NextJs Framework, I created a movie dashboard app with simple and easy to perform CRUD operations. With the help of RTK, app state management become more powerful. React bootstrap and Material UI was beautifully used for quick UI, but for main layout, I wrote CSS from scratch.",
+            technologies: ["Next.js", "TypeScript", "Redux/RTK", "Formik", "Yup", "Material UI", "Vercel"],
+            githubUrl: "https://github.com/HtunAungKyaw73/MovieDashboard-ReactRedux",
+        },
         {
             title: "Blogr Website",
             description:
