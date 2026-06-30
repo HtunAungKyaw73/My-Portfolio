@@ -39,8 +39,10 @@ export function Header() {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <Link href="#hero" className="text-xl font-bold hover:text-sky-400">
-            My Portfolio
+          <Link href="#hero" className="text-xl font-bold font-mono hover:text-sky-400 transition-colors">
+            <span className="text-muted-foreground">&lt;</span>
+            <span className="text-sky-500">hak</span>
+            <span className="text-muted-foreground">/&gt;</span>
           </Link>
 
           {/* Desktop Navigation */}
