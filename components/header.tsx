@@ -39,12 +39,10 @@ export function Header() {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <Link href="#hero" className="transition-opacity hover:opacity-80">
-            <code className="text-base font-mono font-semibold px-2.5 py-1 rounded-md bg-muted border border-border">
-              <span className="text-muted-foreground">&lt;</span>
-              <span className="text-sky-500">hak</span>
-              <span className="text-muted-foreground">/&gt;</span>
-            </code>
+          <Link href="#hero" className="font-mono tracking-tight hover:opacity-75 transition-opacity">
+            <span className="text-muted-foreground text-lg">&lt;</span>
+            <span className="text-sky-500 text-xl font-bold">hak</span>
+            <span className="text-muted-foreground text-lg">/&gt;</span>
           </Link>
 
           {/* Desktop Navigation */}
