@@ -34,6 +34,15 @@ export function Projects() {
           liveUrl: "https://node-utility-management-system-fye1.onrender.com/docs",
       },
       {
+          title: "SoulScript",
+          description:
+              "A micro-journaling & mood-mapping app built with a team. Journal entries are AES-256-GCM encrypted before ever reaching the database, while AI analyzes your emotions and renders them on an interactive mood calendar — all wrapped in a frosted-glass UI with fluid animations. Features Supabase Row-Level Security, server-side rate limiting, bilingual Burmese/English support via Unicode detection, soft-delete undo, and a Vitest test suite.",
+          image: "/soulscript.png",
+          technologies: ["Next.js", "TypeScript", "Supabase", "PostgreSQL", "OpenRouter AI", "TanStack Query", "AES-256-GCM", "Tailwind CSS", "Vitest", "Vercel"],
+          githubUrl: "https://github.com/vibe-code-tours/team-19-app",
+          liveUrl: "https://soul-script-nu.vercel.app/",
+      },
+      {
           title: "ExpressServer for Movie Dashboard - MongoDB",
           description: "Backend API using Express MVC Architecture and JWT Authentication. I wrote this backend server including access and refresh token. There are four API endpoints: todos, movies, reviews, users. The project is divided into routes, controllers, services, models for design architecture.",
           image: "/express-server.jpg",

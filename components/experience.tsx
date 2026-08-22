@@ -18,7 +18,7 @@ export function Experience() {
       period: "2023 - Present",
       description:
         "In the role of Program Associate at ISP-Myanmar, I serve as a in-house developer for interactive analysis dashboards and internal utility microsites. Plus, web scraping with Python, data collection, data cleaning, data analysis, and data visualisation",
-      technologies: ["Web Development", "React", "NextJS", "RTK", "Python", "Digital Tools", "Excel", "Glide","Data Collection and Cleaning","Data Visualisation"],
+      technologies: ["Web Development", "React", "NextJS", "RTK", "Python", "Digital Tools", "Excel","Data Collection and Cleaning","Data Visualisation"],
     },
   ]
 
